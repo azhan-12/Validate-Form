@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registeration Form</title>
+
+</head>
+
+<body>
+    <div>
+        <div class="main-class">
+            <div class="registeration-form">
+                <div class="heading">
+                    <h2>REGISTERATION-FORM</h2>
+                </div><br>
+                <div class="input-box">
+                    <div class="inputtag">
+                        <label for="Full Name">Full Name</label><br>
+                        <input type="text" name="Full Name" id="Full_Name" placeholder="Enter Your Full Name"><br>
+                        <p id="namevalue"></p>
+                    </div>
+                    <div class="inputtag">
+                        <label for="Username">Username</label><br>
+                        <input type="text" name="Username" id="Username" placeholder="Enter Your Username"><br>
+                        <p id="uservalue"></p>
+                    </div>
+                    <div class="inputtag">
+                        <label for="Email">Email</label><br>
+                        <input type="email" name="Email" id="Email" placeholder="Enter Your Email"><br>
+                        <p id="emailvalue"></p>
+                    </div>
+                    <div class="inputtag">
+                        <label for="Password">Password</label><br>
+                        <input type="password" name="Password" id="Password" 
+                        minlength="8"
+                        placeholder="Password"><br>
+                        <p id="passvalue"></p>
+                    </div>
+                    <div class="inputtag">
+                        <label for="Confirm password">Confirm password</label><br>
+                        <input type="password" name="Confirm password" id="Con_password" 
+                        minlength="8"
+                        placeholder="Confirm password"><br>
+                        <p id="conpassvalue"></p>
+                    </div>
+             
+
+                    <div id="radio">
+                        Gender: <input type="radio" name="gender" id="gender">Male <input type="radio" name="gender"
+                            id="gender"> Female <input type="radio" name="gender" id="">others<br>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="terms">
+                        <label for="terms">I accept terms & conditions</label>
+
+                    </div>
+                    <div>
+                        <button onclick="formValue()">Register</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

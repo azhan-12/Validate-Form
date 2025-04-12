@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.registeration-form{
+    width: 370px;
+    min-height: 530px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 5px;
+    border: solid rgba(255, 251, 251, 0.315) 1px;
+    background: rgb(117 117 117 / 11%);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    backdrop-filter: blur(14px);
+    background: #0000004d;
+}
+.input-box input{
+    width:100%;
+    padding: 8px 14px;
+    margin: 2px ;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    outline: none;
+   
+    font-size: 14px;
+}
+.inputtag p {
+    color: red;
+}
+.heading{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    font-style: italic;
+}
+#radio input{
+    font-size: 10px;
+    width: auto;
+    
+}
+body{
+   background-image: url('IMG/BG.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-position: top; */
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.registration-form{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(206,179,179,0.2);
+    color: rgb(241,240,245);
+    font-size: 14px;
+}
+button{
+    background-color: rgb(245, 126, 150);
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    border-radius: 10px;
+    color:white;
+    border: none;
+}
+button:hover{
+    background-color: crimson;
+    
+}
+#terms{
+    width: auto;
+}
